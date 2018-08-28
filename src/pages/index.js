@@ -24,6 +24,8 @@ query IndexQuery {
         frontmatter{
           title
           path
+          src
+          fee
         }
       }
     }
