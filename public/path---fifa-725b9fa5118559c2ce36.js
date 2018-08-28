@@ -1,0 +1,2 @@
+webpackJsonp([18520452469703],{340:function(t,a){t.exports={data:{markdownRemark:{html:"<p>FIFA</p>",frontmatter:{path:"/fifa",title:"FIFA"}}},pathContext:{}}}});
+//# sourceMappingURL=path---fifa-725b9fa5118559c2ce36.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xe01349553a2e],{338:function(t,e){t.exports={data:{markdownRemark:{html:"<p>This is the first list of events</p>",frontmatter:{path:"/test2",title:"Test2"}}},pathContext:{}}}});
+//# sourceMappingURL=path---test-2-d77b8d92a86af33b9f50.js.map

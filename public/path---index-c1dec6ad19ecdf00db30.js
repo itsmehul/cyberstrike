@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{341:function(t,e){t.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"FIFA",path:"/fifa"}}},{node:{frontmatter:{title:"CSGO",path:"/csgo"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-c1dec6ad19ecdf00db30.js.map

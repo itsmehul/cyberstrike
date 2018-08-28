@@ -1,0 +1,78 @@
+{
+  "assetsByChunkName": {
+    "path---fifa": [
+      "path---fifa-725b9fa5118559c2ce36.js",
+      "path---fifa-725b9fa5118559c2ce36.js.map"
+    ],
+    "path---csgo": [
+      "path---csgo-44a29602bc892e87d3d6.js",
+      "path---csgo-44a29602bc892e87d3d6.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-75d59cf6636c62dc4a9a.js",
+      "component---src-pages-index-js-75d59cf6636c62dc4a9a.js.map"
+    ],
+    "path---events": [
+      "path---events-c870bdb06a5811a60bd6.js",
+      "path---events-c870bdb06a5811a60bd6.js.map"
+    ],
+    "path---": [
+      "path----c3336a98df7d76c37e3b.js",
+      "path----c3336a98df7d76c37e3b.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-1688b13a91b5cf728f1d.js",
+      "component---src-layouts-index-js-1688b13a91b5cf728f1d.js.map"
+    ],
+    "path---page-2": [
+      "path---page-2-a0e39f21c11f6a62c5ab.js",
+      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-c1dec6ad19ecdf00db30.js",
+      "path---index-c1dec6ad19ecdf00db30.js.map"
+    ],
+    "component---src-pages-page-3-js": [
+      "component---src-pages-page-3-js-7377b6dcf6aa5e5c25fb.js",
+      "component---src-pages-page-3-js-7377b6dcf6aa5e5c25fb.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-b71e7233220735cda602.js",
+      "commons-b71e7233220735cda602.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-post-js": [
+      "component---src-templates-post-js-1d3764f9ae977ba184e0.js",
+      "component---src-templates-post-js-1d3764f9ae977ba184e0.js.map"
+    ],
+    "path---page-3": [
+      "path---page-3-a0e39f21c11f6a62c5ab.js",
+      "path---page-3-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-page-2-js": [
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
+      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    ],
+    "app": [
+      "app-6da9db2f7a94025d780d.js",
+      "build-js-styles.css",
+      "app-6da9db2f7a94025d780d.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-events-js": [
+      "component---src-pages-events-js-a4010e335d199aa6336f.js",
+      "component---src-pages-events-js-a4010e335d199aa6336f.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
