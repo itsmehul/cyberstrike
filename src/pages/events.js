@@ -15,7 +15,7 @@ const EventsPage = ({ data }) => {
             margin: "5px"
             }}>
             <div>
-              <img src={withPrefix(src)} />
+              <img src={src} />
             </div>
             <div className={styles.title}>{title}</div>
             <div>{short}</div>
