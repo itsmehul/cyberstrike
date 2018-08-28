@@ -7,6 +7,8 @@ const IndexPage = ({data}) => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-3/">Go to page 2</Link>
+    <Link to="/events/">Go to page 2</Link>
     <h1>Index</h1>
     {data.allMarkdownRemark.edges.map(post=>(
       <a href={post.node.frontmatter.path}>{post.node.frontmatter.title}</a>

@@ -1,7 +1,7 @@
 ---
 path: '/csgo'
 title: 'CSGO'
-src: 'url'
+src: 'static/assets/csgo.jpg'
 ---
 
 CSGO
