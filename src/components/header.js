@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Headroom from 'react-headroom'
+import { withPrefix } from 'gatsby-link'
 
 const Header = ({ siteTitle }) => (
-  <div
+  <Headroom
     style={{
       background: 'rebeccapurple',
       marginBottom: '1.45rem',
@@ -21,13 +23,23 @@ const Header = ({ siteTitle }) => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            marginRight: '20px',
           }}
         >
-          {siteTitle}
+          Home
+        </Link>
+        <Link
+          to="/events"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Events
         </Link>
       </h1>
     </div>
-  </div>
+  </Headroom>
 )
 
 export default Header
