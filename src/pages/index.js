@@ -6,7 +6,8 @@ const IndexPage = ({ data }) => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    
+    <p>This is a change done by Samir </p>
+
     <h1>Index</h1>
     
   </div>
