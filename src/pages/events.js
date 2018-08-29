@@ -1,29 +1,47 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
-import styles from "./events.module.css";
-import Link from "gatsby-link";
+import styles from './events.module.css'
+import Link from 'gatsby-link'
+import { Shadow, Grid, Heading, Image, Paragraph, Card } from 'reakit'
 
 const EventsPage = ({ data }) => {
+
   return (
-    <div>
+    <Grid columns="repeat(2, 1fr)" autoRows="auto" gap="3vw">
       {data.allMarkdownRemark.edges.map(post => {
-        const {src, title, short, fee, teamSize, type, path}=post.node.frontmatter
+        const {
+          src,
+          title,
+          short,
+          fee,
+          teamSize,
+          type,
+          path,
+        } = post.node.frontmatter
         return (
-          <div style={{
-            borderStyle: "solid",
-            borderWidth:"5px",
-            margin: "5px"
-            }}>
-            <div>
-              <img src={src} />
-            </div>
-            <div className={styles.title}>{title}</div>
-            <div>{short}</div>
-            <Link to={path}>More Info</Link>
-          </div>
+          <Grid.Item>
+            <Card>
+            <Shadow depth={9} />
+              <Heading
+              className={styles.title}
+              >{title}</Heading>
+              <Card.Fit
+                as={Image}
+                src={src}
+                alt="Kitten"
+                width="100%"
+                height="auto"
+              />
+
+              <Paragraph>{short}</Paragraph>
+              <Link to={path}
+              style={{textDecoration:"none", color: "black"}}
+              >More Info</Link>
+            </Card>
+          </Grid.Item>
         )
       })}
-    </div>
+    </Grid>
   )
 }
 
