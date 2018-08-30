@@ -21,7 +21,7 @@ const EventsPage = ({ data }) => {
         } = post.node.frontmatter
         return (
           <div>
-            <Card className={styles.eventCard}>
+            <Card className={styles.eventCardscss}>
               <Heading
               className={styles.title}
               >{title}</Heading>
