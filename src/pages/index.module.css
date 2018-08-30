@@ -11,4 +11,42 @@
   min-height: 100%;
   width: auto;
   height: auto;
+  /* z-index: 2; */
+}
+
+.centering{
+  vertical-align: middle; 
+  padding-bottom: 5%;
+}
+
+.cybertitle {
+  display: inline-block;
+}
+
+.cybertitletext {
+  font-family: 'Anton', sans-serif; 
+  left: 20%;
+  top: 30%;
+  position: fixed;
+  font-size: 500%;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+  border: 11px solid #ffffff;
+  color: #ffffff;
+  z-index: 9;
+}
+
+.datetext {
+  font-family: 'Anton', sans-serif; 
+  left: 16%;
+  top: 70%;
+  position: fixed;
+  font-size: 300%;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  z-index: 9;
 }
