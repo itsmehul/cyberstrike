@@ -2,12 +2,12 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import styles from './events.module.css'
 import Link from 'gatsby-link'
-import { Shadow, Grid, Heading, Image, Paragraph, Card } from 'reakit'
+import { Shadow, Grid, Heading, Image, Paragraph, Card, Arrow } from 'reakit'
 
 const EventsPage = ({ data }) => {
 
   return (
-    <Grid columns="repeat(2, 1fr)" autoRows="auto" gap="3vw">
+    <div className={styles.grid}>
       {data.allMarkdownRemark.edges.map(post => {
         const {
           src,
@@ -19,8 +19,8 @@ const EventsPage = ({ data }) => {
           path,
         } = post.node.frontmatter
         return (
-          <Grid.Item>
-            <Card>
+          <div>
+            <Card >
             <Shadow depth={9} />
               <Heading
               className={styles.title}
@@ -38,10 +38,10 @@ const EventsPage = ({ data }) => {
               style={{textDecoration:"none", color: "black"}}
               >More Info</Link>
             </Card>
-          </Grid.Item>
+          </div>
         )
       })}
-    </Grid>
+    </div>
   )
 }
 
