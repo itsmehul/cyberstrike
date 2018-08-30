@@ -1,15 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styles from './index.module.css'
 
 const IndexPage = ({ data }) => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <p>This is a change done by Samir </p>
-
-    <h1>Index</h1>
-    
+  <div className={styles.splash}>
+    <video className={styles.bgvid} autoplay="true">
+      <source src="static/vidhome.mp4" type="video/mp4" />
+    </video>
   </div>
 )
 
