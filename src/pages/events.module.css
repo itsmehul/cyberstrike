@@ -1,5 +1,5 @@
 .title {
-  color: rgb(92, 67, 67);
+  color: white;
   text-align: center;
 }
 
@@ -11,4 +11,18 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.eventCard {
+  src: local('Open Sans'),
+  local('OpenSans'),
+  url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  font-family: 'Product Sans';
+  border-style: solid;
+  background-color: rgb(2, 2, 2);
+  border-width: 5px;
+  border-color:#88FF00;
+  border-radius: 10px;
+  box-shadow:0px 0px 14px rgb(0, 255, 0);
+  margin:5px;
 }
