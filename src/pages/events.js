@@ -7,7 +7,7 @@ import { Shadow, Grid, Heading, Image, Paragraph, Card, Arrow } from 'reakit'
 const EventsPage = ({ data }) => {
 
   return (
-    <Grid columns="repeat(auto-fill, minmax(250px,350px))" autoRows="auto" gap="3vw" style={{margin: "0px auto"}}>
+    <div className={styles.grid}>
       {data.allMarkdownRemark.edges.map(post => {
         const {
           src,
@@ -19,7 +19,7 @@ const EventsPage = ({ data }) => {
           path,
         } = post.node.frontmatter
         return (
-          <Grid.Item align-self="center">
+          <div>
             <Card >
             <Shadow depth={9} />
               <Heading
@@ -38,10 +38,10 @@ const EventsPage = ({ data }) => {
               style={{textDecoration:"none", color: "black"}}
               >More Info</Link>
             </Card>
-          </Grid.Item>
+          </div>
         )
       })}
-    </Grid>
+    </div>
   )
 }
 
