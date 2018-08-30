@@ -1,5 +1,5 @@
 .title {
-  color: rgb(92, 67, 67);
+  color: white;
   text-align: center;
 }
 
@@ -11,4 +11,14 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.eventCard {
+  border-style: solid;
+  background-color: rgb(red, rgba(34, 34, 34, 0.233), blue);
+  border-width: 1px;
+  border-color:#88FF00;
+  border-radius: 10px;
+  box-shadow:0px 0px 14px rgb(0, 255, 0);
+  margin:5px;
 }

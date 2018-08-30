@@ -5,6 +5,7 @@ import Link from 'gatsby-link'
 import { Shadow, Grid, Heading, Image, Paragraph, Card, Arrow } from 'reakit'
 
 const EventsPage = ({ data }) => {
+  document.body.style.background="#000000";
 
   return (
     <div className={styles.grid}>
@@ -20,8 +21,7 @@ const EventsPage = ({ data }) => {
         } = post.node.frontmatter
         return (
           <div>
-            <Card >
-            <Shadow depth={9} />
+            <Card className={styles.eventCard}>
               <Heading
               className={styles.title}
               >{title}</Heading>
