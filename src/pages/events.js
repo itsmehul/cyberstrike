@@ -21,7 +21,7 @@ const EventsPage = ({ data }) => {
         } = post.node.frontmatter
         return (
           <div>
-            <Card className={styles.eventCard}>
+            <div className={styles.eventCard}>
               <Heading
               className={styles.title}
               >{title}</Heading>
@@ -37,7 +37,7 @@ const EventsPage = ({ data }) => {
               <Link to={path}
               style={{textDecoration:"none", color: "black"}}
               >More Info</Link>
-            </Card>
+            </div>
           </div>
         )
       })}
