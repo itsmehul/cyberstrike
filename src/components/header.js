@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
     return (
       <Headroom
         style={{
-          background: 'rgb(3, 21, 51)',
+          
           marginBottom: '1.45rem',
         }}
       >

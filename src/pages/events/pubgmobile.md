@@ -1,7 +1,7 @@
 ---
-path: '/debate'
-title: 'Debate'
-src: 'static/assets/debate1.jpg'
+path: '/pubgm'
+title: 'PUBG Mobile'
+src: 'static/assets/csgo.jpg'
 short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'
 fee: '₹300 Per Team'
 teamSize: '5'
