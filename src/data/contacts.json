@@ -1,0 +1,31 @@
+{
+  "support":[
+    {
+      "name":"nadeem",
+      "head":"fifa",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"nfs",
+      "contact":"989021380"
+    },
+    {
+      "name":"sameer",
+      "head":"csgo",
+      "contact":"989021380"
+    }
+  ],
+  "team":[
+    {
+      "name":"mehul",
+      "head":"web dev",
+      "contact":"989021380"
+    },
+    {
+      "name":"sameer",
+      "head":"planning",
+      "contact":"989021380"
+    }
+  ]
+}

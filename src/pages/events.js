@@ -28,9 +28,7 @@ const EventsPage = ({ data }) => {
           
           
           <div>
-            
             <div className={styles.eventCards}>
-            
               <Heading
               className={styles.title}
               >{title}</Heading>
@@ -47,7 +45,6 @@ const EventsPage = ({ data }) => {
                 <Link className={styles.eventlink} to={path}>MORE INFO</Link>
               </div>
               
-
             </div>
           </div>
         )

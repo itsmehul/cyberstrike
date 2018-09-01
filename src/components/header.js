@@ -36,9 +36,19 @@ const Header = ({ siteTitle }) => {
               style={{
                 color: 'white',
                 textDecoration: 'none',
+                marginRight: '20px',
               }}
             >
               Events
+            </Link>
+            <Link
+              to="/contacts"
+              style={{
+                color: 'white',
+                textDecoration: 'none',
+              }}
+            >
+              Contacts
             </Link>
           </h1>
         </div>
@@ -66,6 +76,7 @@ const Header = ({ siteTitle }) => {
                 color: 'white',
                 textDecoration: 'none',
                 marginRight: '20px',
+                marginRight: '20px',
               }}
             >
               Home
@@ -75,9 +86,19 @@ const Header = ({ siteTitle }) => {
               style={{
                 color: 'white',
                 textDecoration: 'none',
+                marginRight: '20px',
               }}
             >
               Events
+            </Link>
+            <Link
+              to="/contacts"
+              style={{
+                color: 'white',
+                textDecoration: 'none',
+              }}
+            >
+              Contacts
             </Link>
           </h1>
         </div>
