@@ -5,19 +5,21 @@ import contactsData from '../data/contacts.json'
 import styles from './contacts.module.css'
 
 const contactUs = ({ data }) => {
+  document.body.style.background = "white";
+
   console.log(Object.values(contactsData))
   return (
-    <div>
-      <h1>Meet the team</h1>
+    <div> 
+      <h1 className={styles.contacthead}>Happy to Help!</h1>
       <br />
-      <h1>Heads</h1>
-      <div className={styles.grid}>
+      <h1 className={styles.contactlisthead}>Heads</h1>
+      <div className={styles.contactlist+' '+styles.grid}>
       {contactsData.team.map(member=>
       <Contact name={member.name} head={member.head} contact={member.contact} />
       )}
-      </div>
-      <h1>Support</h1>
-      <div className={styles.grid}>
+      </div> 
+      <h1 className={styles.contactlisthead}>Support</h1>
+      <div className={styles.grid} >
       {contactsData.support.map(member=>
       <Contact name={member.name} head={member.head} contact={member.contact} />
       )}

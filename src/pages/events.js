@@ -6,12 +6,10 @@ import { Heading, Image, Paragraph, Card } from 'reakit'
 
 const EventsPage = ({ data }) => {
   document.body.style.background = "url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)";
-  <div>
-    <h1>GAMES & EVENTS</h1>
-    
-  </div>
+  
   return (
-    
+    <div>
+      <div className={styles.eventhead}>GAMES & EVENTS</div>
     <div className={styles.grid}>
       {data.allMarkdownRemark.edges.map(post => {
         const {
@@ -39,7 +37,8 @@ const EventsPage = ({ data }) => {
                 height="auto"
               />
 
-              <Paragraph className={styles.eventpara}>{short}</Paragraph>
+              <p className={styles.eventpara}>{short}</p> 
+              
               <div className={styles.eventlinkdiv}>
                 <Link className={styles.eventlink} to={path}>MORE INFO</Link>
               </div>
@@ -48,6 +47,7 @@ const EventsPage = ({ data }) => {
           </div>
         )
       })}
+    </div>
     </div>
   )
 }
