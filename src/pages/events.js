@@ -2,7 +2,7 @@ import React from 'react'
 import { withPrefix } from 'gatsby-link'
 import styles from './events.module.css'
 import Link from 'gatsby-link'
-import { Shadow, Grid, Heading, Image, Paragraph, Card, Arrow } from 'reakit'
+import { Heading, Image, Paragraph, Card } from 'reakit'
 
 const EventsPage = ({ data }) => {
   document.body.style.background="#000000";

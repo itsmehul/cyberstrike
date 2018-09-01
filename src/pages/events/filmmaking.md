@@ -2,6 +2,7 @@
 path: '/filmaking'
 title: 'filmaking'
 src: 'static/assets/filmaking.jpg'
+widescreen: 'static/widescreen/hackathon.jpg'
 short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'
 fee: '₹300 Per Team'
 teamSize: '5'
