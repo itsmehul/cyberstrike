@@ -29,6 +29,7 @@ export const postQuery = graphql`
         teamSize
         Type
         Date
+        
       }
     }
   }

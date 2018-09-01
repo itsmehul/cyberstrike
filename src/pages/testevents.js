@@ -1,17 +1,13 @@
 import React from 'react'
 import { withPrefix } from 'gatsby-link'
-import styles from './events.module.css'
+import styles from './testevents.module.css'
 import Link from 'gatsby-link'
-import { Heading, Image, Paragraph, Card } from 'reakit'
+import { Shadow, Grid, Heading, Image, Paragraph, Card, Arrow } from 'reakit'
 
-const EventsPage = ({ data }) => {
-  document.body.style.background = "url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)";
-  <div>
-    <h1>GAMES & EVENTS</h1>
-    
-  </div>
+const TestEventsPage = ({ data }) => {
+  document.body.style.background = "rgb(1, 1, 1)";
+
   return (
-    
     <div className={styles.grid}>
       {data.allMarkdownRemark.edges.map(post => {
         const {
@@ -24,10 +20,8 @@ const EventsPage = ({ data }) => {
           path,
         } = post.node.frontmatter
         return (
-          
-          
           <div>
-            <div className={styles.eventCards}>
+            <Card className={styles.eventCardscss}>
               <Heading
               className={styles.title}
               >{title}</Heading>
@@ -39,12 +33,11 @@ const EventsPage = ({ data }) => {
                 height="auto"
               />
 
-              <Paragraph className={styles.eventpara}>{short}</Paragraph>
-              <div className={styles.eventlinkdiv}>
-                <Link className={styles.eventlink} to={path}>MORE INFO</Link>
-              </div>
-              
-            </div>
+              <Paragraph className={styles.paraevents}>{short}</Paragraph>
+              <Link to={path}
+              style={{textDecoration:"none", color: "white"}}
+              >More Info</Link>
+            </Card>
           </div>
         )
       })}
@@ -53,7 +46,7 @@ const EventsPage = ({ data }) => {
 }
 
 export const pageQuery = graphql`
-  query EventsQuery {
+  query TestEventsQuery {
     allMarkdownRemark {
       edges {
         node {
@@ -62,7 +55,6 @@ export const pageQuery = graphql`
             path
             src
             short
-            wide
           }
         }
       }
@@ -70,4 +62,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default EventsPage
+export default TestEventsPage

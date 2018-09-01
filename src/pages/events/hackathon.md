@@ -1,6 +1,6 @@
 ---
 path: '/hackathon'
-title: 'Hackathon'
+title: 'Mini Hackathon'
 src: 'static/assets/hackathon.jpg'
 widescreen: 'static/widescreen/hackathon.jpg'
 short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'
