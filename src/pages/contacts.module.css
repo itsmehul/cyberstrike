@@ -3,3 +3,19 @@
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
 }
+
+.contacthead {
+  font-family: 'Anton',
+  sans-serif;
+  color: black;
+  font-size: 5rem;
+  padding-left: 10px;
+}
+
+.contactlisthead {
+  color : blue; 
+}
+
+.contactlist {
+  color: red;
+}
