@@ -1,6 +1,7 @@
 ---
 path: '/debate'
 title: 'Debate'
+game: 'debate'
 src: 'static/assets/debate.jpg'
 widescreen: 'static/widescreen/hackathon.jpg'
 short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'

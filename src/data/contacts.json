@@ -7,12 +7,52 @@
     },
     {
       "name":"rohan",
-      "head":"nfs",
+      "head":"pubg",
       "contact":"989021380"
     },
     {
       "name":"sameer",
       "head":"csgo",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"hackathon",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"minilens",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"polaroid",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"technovators",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"techtalk",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"workshop",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"football",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"debate",
       "contact":"989021380"
     }
   ],
