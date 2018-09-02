@@ -1,0 +1,2 @@
+webpackJsonp([37917954038285],{347:function(e,t){e.exports={data:{markdownRemark:{html:"",frontmatter:{path:"/filmaking",title:"filmaking",src:"static/assets/filmaking.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---filmaking-dc77cc000e6460af3165.js.map

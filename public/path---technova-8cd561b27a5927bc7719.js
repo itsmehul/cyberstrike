@@ -1,0 +1,2 @@
+webpackJsonp([0xf84abfe73ec6],{352:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/technova",title:"Technova",src:"static/assets/technova.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---technova-8cd561b27a5927bc7719.js.map
