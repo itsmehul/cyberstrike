@@ -21,11 +21,7 @@ const Header = ({ siteTitle }) => {
     {
       page: 'CONTACT US',
       path: '/contacts',
-    },
-    {
-      page: 'AboutUs',
-      path: '/aboutus',
-    },
+    }
   ]
   function getStyle() {
     if (isContacts || isAboutus) {
@@ -40,7 +36,7 @@ const Header = ({ siteTitle }) => {
     } else if (isContacts || isAboutus) {
       return 'white'
     } else {
-      return 'black'
+      return '#000000c4'
     }
   }
   return (
