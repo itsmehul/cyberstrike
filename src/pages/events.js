@@ -9,7 +9,8 @@ const EventsPage = ({ data }) => {
 
   return (
     <div>
-
+    <button onClick={popup('cyberstrike')} className={tsbutton}>Register Now</button>
+    <script src={www.townscript.com/popup-widget/townscript-widget.nocache.js} type={text/javascript}> </script>
       <h1 className={styles.eventhead}>GAMES & EVENTS</h1><br />
       <h1 className={styles.eventsubhead}>Games!</h1>
       <div className={styles.grid}>
