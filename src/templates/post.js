@@ -20,7 +20,7 @@ export default function Template({ data }) {
   console.log(head[0].name)
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <div style={{height:'200px', width:'100%', overflow:'hidden'}}>
+      <div style={{height:'290px', width:'100%', overflow:'hidden'}}>
         <img src={widescreen} style={{height:'auto',width:'100%'}}/>
       </div>
       <h1>{title}</h1>
