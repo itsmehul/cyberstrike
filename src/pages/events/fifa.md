@@ -1,5 +1,6 @@
 ---
 path: '/fifa'
+genre: 'game'
 title: 'FIFA'
 game: 'fifa'
 src: 'static/assets/icons/fifa.jpg'

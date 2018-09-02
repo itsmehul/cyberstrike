@@ -6,19 +6,29 @@ const EventsPage = ({ data }) => {
   document.body.style.background =
     'url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)'
 
+    const games = data.allMarkdownRemark.edges.filter(game=>game.node.frontmatter.genre==='game')
+    const events = data.allMarkdownRemark.edges.filter(event=>event.node.frontmatter.genre==='event')
+
   return (
     <div>
       <div className={styles.eventhead}>GAMES & EVENTS</div><br />
       <h2 className={styles.eventsubhead}>Games</h2>
-
+    
+      <div><div><div>
+                <div className={styles.eventlinkdiv}>
+                  <Link className={styles.eventlink} to={path}>
+                    MORE INFO
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+      <h1 className={styles.eventhead}>Games</h1>
       <div className={styles.grid}>
-        {data.allMarkdownRemark.edges.map(post => {
-          const {
-            src,
-            title,
-            short,
-            path
-          } = post.node.frontmatter
+        {games.map(post => {
+          const { src, title, short, path } = post.node.frontmatter
           return (
             <div>
               <div className={styles.eventCards}>
@@ -41,6 +51,7 @@ const EventsPage = ({ data }) => {
           )
         })}
       </div>
+  
     </div>
   )
 }
@@ -55,6 +66,7 @@ export const pageQuery = graphql`
             path
             src
             short
+            genre
           }
         }
       }

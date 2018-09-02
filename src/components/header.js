@@ -6,7 +6,7 @@ import { withPrefix } from 'gatsby-link'
 
 
 const Header = ({ siteTitle }) => {
-  // const isHomepage = location.pathname === withPrefix('/')
+  const isHomepage = location.pathname === withPrefix('/')
   const isContacts = location.pathname === withPrefix('/contacts')
   const isAboutus = location.pathname === withPrefix('/aboutus')
   const links = [
@@ -34,10 +34,19 @@ const Header = ({ siteTitle }) => {
       return 'white'
     }
   }
+  function getBackground() {
+    if (isHomepage) {
+      return 'transparent'
+    } else if (isContacts || isAboutus) {
+      return 'white'
+    } else {
+      return 'black'
+    }
+  }
   return (
     <Headroom
       style={{
-        background: 'rgba(0, 0, 0, 0.0)',
+        background: getBackground(),
         marginBottom: '1.45rem',
         
       }}
@@ -67,7 +76,6 @@ const Header = ({ siteTitle }) => {
       </div>
     </Headroom>
   )
-  
 }
 
 export default Header

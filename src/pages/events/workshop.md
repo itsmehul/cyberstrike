@@ -1,5 +1,6 @@
 ---
 path: '/workshop'
+genre: 'event'
 title: 'Workshop'
 game: 'workshop'
 src: 'static/assets/icons/workshop.png'

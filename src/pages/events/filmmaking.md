@@ -1,5 +1,6 @@
 ---
 path: '/filmaking'
+genre: 'event'
 title: 'Through the Mini Lens'
 game: 'minilens'
 src: 'static/assets/icons/minilens.jpg'

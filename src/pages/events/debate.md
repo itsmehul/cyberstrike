@@ -1,5 +1,6 @@
 ---
 path: '/debate'
+genre: 'event'
 title: 'Debate'
 game: 'debate'
 src: 'static/assets/icons/debate.jpg'
