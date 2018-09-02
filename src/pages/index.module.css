@@ -1,17 +1,4 @@
-.splash{
-  position: fixed;
-  display: block;
-}
-.bgvid {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -9; 
-}
+
 
 .centering{
   position: absolute;
@@ -36,7 +23,7 @@
   text-align: center;
   padding: 25px;
   border: 11px solid #ffffff;
-  color: black;
+  color: whitesmoke;
   z-index: 9;
 }
 
@@ -60,16 +47,15 @@
   font-family: 'Anton', sans-serif;
   font-size: 500%;
   padding: 25px;
-  border: 11px solid black;
-  color: black;
+  border: 11px solid whitesmoke;
+  color: white;
 }
 
 .testsplash {
   z-index: 9;
   margin: 0 auto;
   width: 100%;
-
-
+  padding-top: 20vh;
 }
 
 .testdatetext {
@@ -79,7 +65,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 300%;
   padding-top: 20px;
-  color: black;
+  color: white;
   
 }
 

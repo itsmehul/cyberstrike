@@ -3,14 +3,13 @@ import styles from './events.module.css'
 import Link from 'gatsby-link'
 
 const EventsPage = ({ data }) => {
-  document.body.style.background =
-    'url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)'
 
     const games = data.allMarkdownRemark.edges.filter(game=>game.node.frontmatter.genre==='game')
     const events = data.allMarkdownRemark.edges.filter(event=>event.node.frontmatter.genre==='event')
 
   return (
     <div>
+
       <h1 className={styles.eventhead}>GAMES & EVENTS</h1><br />
       <h1 className={styles.eventsubhead}>Games!</h1>
       <div className={styles.grid}>

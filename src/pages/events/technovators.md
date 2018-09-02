@@ -5,11 +5,11 @@ title: 'Technovators'
 game: 'technovators'
 src: 'static/assets/icons/technovators.jpg'
 widescreen: 'static/assets/cover/technovators.jpg'
-short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'
+short: "It takes great courage and free spirit to quit everything and build up your own empire to work on your own terms. Let's applaud the ones who successfully established their own and discover their innovations in this gathering."
 fee: '₹300 Per Team'
 teamSize: '5'
 Type: 'Tournament'
-Date: 'December 17, 2016 & December 18, 2016' 
+Date: 'December 5, 2018 & December 6, 2018' 
 ---
 
 CSGO
