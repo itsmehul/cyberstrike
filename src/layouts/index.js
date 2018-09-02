@@ -19,9 +19,6 @@ const Layout = ({ children, data }) => {
         />
       )}
       {isHomepage && (
-        // <video height="200%" width="200%" autoPlay muted loop className={styles.wide}>
-        //   <source src="static/vidhome.mp4" type="video/mp4" />
-        // </video>
         <video autoPlay muted loop className={styles.myVideo}>
           <source src="static/vidhome.mp4" type="video/mp4" />
         </video>

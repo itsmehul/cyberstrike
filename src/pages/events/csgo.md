@@ -9,5 +9,5 @@ short: 'The most loved games of all times- challenge your friends to win the tou
 fee: '₹300 Per Team'
 teamSize: '5'
 Type: 'Tournament'
-Date: 'December 17, 2016 & December 18, 2016' 
+Date: 'December 5, 2018 & December 6, 2018' 
 ---
