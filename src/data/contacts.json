@@ -54,25 +54,26 @@
     {
       "name":"rohan",
       "head":"debate",
-      "contact":"989021380"
+      "contact":"989021380",
+      "email":"jhc@committee.com"
 
     }
   ],
   "team":[
     {
-      "name":"Vidisha",
+      "name":"Vidisha Dalvi",
       "head":"President",
-      "contact":"989021380"
+      "contact":""
     },
     {
-      "name":"Manvi",
-      "head":"Marketting",
-      "contact":"989021380"
+      "name":"Manvi Gangwani",
+      "head":"Sponsorship Head",
+      "contact":""
     },
     {
-      "name":"Shubham",
-      "head":"Promotions",
-      "contact":"989021380"
+      "name":"Shubham Chhabra",
+      "head":"PR Head",
+      "contact":""
     }
   ]
 }

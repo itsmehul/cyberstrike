@@ -9,9 +9,11 @@ const EventsPage = ({ data }) => {
 
   return (
     <div>
-      <h1 className={styles.eventhead}>Events</h1>
+
+      <h1 className={styles.eventhead}>GAMES & EVENTS</h1><br />
+      <h1 className={styles.eventsubhead}>Games!</h1>
       <div className={styles.grid}>
-        {events.map(post => {
+        {games.map(post => {
           const { src, title, short, path } = post.node.frontmatter
           return (
             <div>
@@ -41,9 +43,10 @@ const EventsPage = ({ data }) => {
           )
         })}
       </div>
-      <h1 className={styles.eventhead}>Games</h1>
+      <br /><br />
+      <h1 className={styles.eventsubhead}>Events!</h1>
       <div className={styles.grid}>
-        {games.map(post => {
+        {events.map(post => {
           const { src, title, short, path } = post.node.frontmatter
           return (
             <div>

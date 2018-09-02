@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styles from './header.module.css'
 import Headroom from 'react-headroom'
 import { withPrefix } from 'gatsby-link'
+
 
 const Header = ({ siteTitle }) => {
   const isHomepage = location.pathname === withPrefix('/')
@@ -9,15 +11,15 @@ const Header = ({ siteTitle }) => {
   const isAboutus = location.pathname === withPrefix('/aboutus')
   const links = [
     {
-      page: 'Home',
+      page: 'HOME',
       path: '/',
     },
     {
-      page: 'Events',
+      page: 'EVENTS',
       path: '/events',
     },
     {
-      page: 'Contacts',
+      page: 'CONTACT US',
       path: '/contacts',
     },
     {
@@ -46,6 +48,7 @@ const Header = ({ siteTitle }) => {
       style={{
         background: getBackground(),
         marginBottom: '1.45rem',
+        
       }}
     >
       <div
@@ -57,13 +60,13 @@ const Header = ({ siteTitle }) => {
       >
         <h1 style={{ margin: 0 }}>
           {links.map(link => (
-            <Link
+            <Link  className={styles.fontfam}
               to={link.path}
               style={{
                 color: getStyle(),
                 textDecoration: 'none',
-                marginRight: '20px',
-                display: 'inline-block',
+                marginRight: '40px',
+                display: 'inline-block'
               }}
             >
               {link.page}
