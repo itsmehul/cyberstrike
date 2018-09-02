@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Product+Sans');
 
 .title {
   font-family: Product Sans;
   color: white;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 20px;
 }
 
 .test {
@@ -23,6 +23,14 @@
   color: white;
   font-size: 5rem;
   padding-left: 10px;
+}
+
+.eventsubhead {
+  font-weight: 400;
+  color: rgb(214, 214, 214);
+  padding-left: 10px;
+  font-family: Product Sans;
+  font-size: 2.5rem;
 }
 
 
@@ -76,12 +84,13 @@
 }
 
 .eventlinkdiv {
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-bottom: 20px;
+  margin: 100 auto;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .eventlink {
+  margin: 100 auto;
   border-radius: 5px;
   text-align: center;
   font-size: 100%;

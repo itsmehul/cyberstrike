@@ -9,13 +9,13 @@ const contactUs = ({ data }) => {
   return (
     <div id="map">
       <div style={{padding:'10px'}}> 
-        <h1 className={styles.contacthead}>Contact Us</h1>
+        <h1 className={styles.contacthead}>CONTACT US</h1>
         <h2 className={styles.contactsubhead}>Here to help!</h2>
         <br />
 
         <div className={styles.grid}>
         {contactsData.support.map(member=>
-        <Contact className={styles.contactlist}  name={member.name} head={member.head} contact={member.contact} />
+        <Contact className={styles.contactlist}  name={member.name} head={member.head} contact={member.contact} email={member.email} />
         )}
         </div> <br />
         <h1 className={styles.contactlisthead}>Heads of Events</h1>

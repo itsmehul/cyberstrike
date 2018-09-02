@@ -10,15 +10,15 @@ const Header = ({ siteTitle }) => {
   const isContacts = location.pathname === withPrefix('/contacts')
   const links = [
     {
-      page: 'Home',
+      page: 'HOME',
       path: '/',
     },
     {
-      page: 'Events',
+      page: 'EVENTS',
       path: '/events',
     },
     {
-      page: 'Contacts',
+      page: 'CONTACT US',
       path: '/contacts',
     },
   ]
@@ -32,8 +32,9 @@ const Header = ({ siteTitle }) => {
   return (
     <Headroom
       style={{
-        background: 'transparent',
+        background: 'rgba(0, 0, 0, 0.0)',
         marginBottom: '1.45rem',
+        
       }}
     >
       <div
@@ -45,12 +46,12 @@ const Header = ({ siteTitle }) => {
       >
         <h1 style={{ margin: 0 }}>
           {links.map(link => (
-            <Link
+            <Link  className={styles.fontfam}
               to={link.path}
               style={{
                 color: getStyle(),
                 textDecoration: 'none',
-                marginRight: '20px',
+                marginRight: '50px',
               }}
             >
               {link.page}

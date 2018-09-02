@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Squada+One');
-
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
 
 .trans{
   background-color: transparent
@@ -8,6 +8,6 @@
 
 
 .fontfam {
-  font-family: 'Squada One',
-  cursive;
+  font-size: 20px;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }

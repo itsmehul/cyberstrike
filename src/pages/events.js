@@ -8,7 +8,8 @@ const EventsPage = ({ data }) => {
 
   return (
     <div>
-      <div className={styles.eventhead}>GAMES & EVENTS</div>
+      <div className={styles.eventhead}>GAMES & EVENTS</div><br />
+      <h2 className={styles.eventsubhead}>Games</h2>
 
       <div className={styles.grid}>
         {data.allMarkdownRemark.edges.map(post => {
@@ -22,8 +23,8 @@ const EventsPage = ({ data }) => {
             <div>
               <div className={styles.eventCards}>
                 <h1 className={styles.title}>{title}</h1>
-                <div
-                  style={{ height: '300px', width: '100%', overflow: 'hidden' }}
+                <div className={styles.eventimages}
+                  style={{ height: '300px', width: '100%', overflow: 'hidden'}}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
