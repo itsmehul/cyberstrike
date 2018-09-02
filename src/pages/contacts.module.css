@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Product+Sans');
+
+
 .grid {
   display: grid;
   grid-gap: 10px;
@@ -9,7 +12,11 @@
   sans-serif;
   color: black;
   font-size: 5rem;
-  padding-left: 10px;
+}
+
+.contactsubhead {
+  font-family: Product Sans;
+  font-size: 2.5rem;
 }
 
 .contactlisthead {
@@ -17,5 +24,6 @@
 }
 
 .contactlist {
-  color: red;
+  font-family: 'Anton' !important;
+  font-size: 5rem !important;
 }

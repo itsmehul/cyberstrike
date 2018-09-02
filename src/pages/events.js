@@ -29,7 +29,7 @@ const EventsPage = ({ data }) => {
               <Heading
               className={styles.title}
               >{title}</Heading>
-              <Card.Fit
+              <Card.Fit className={styles.eventimages}
                 as={Image}
                 src={src}
                 alt="Kitten"
