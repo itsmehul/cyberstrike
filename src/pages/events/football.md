@@ -1,5 +1,6 @@
 ---
 path: '/football'
+genre: 'game'
 title: 'Neon Football'
 game: 'football'
 src: 'static/assets/icons/football.jpg'

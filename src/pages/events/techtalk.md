@@ -1,5 +1,6 @@
 ---
 path: '/techtalk'
+genre: 'event'
 title: 'TECHtalk'
 game: 'techtalk'
 src: 'static/assets/icons/techtalk.png'

@@ -1,5 +1,6 @@
 ---
 path: '/csgo'
+genre:'game'
 title: 'Counter Strike'
 game: 'csgo'
 src: 'static/assets/icons/csgo.jpg'

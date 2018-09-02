@@ -1,5 +1,6 @@
 ---
 path: '/hackathon'
+genre: 'event'
 title: 'Mini Hackathon'
 game: 'hackathon'
 src: 'static/assets/icons/hackathon.png'

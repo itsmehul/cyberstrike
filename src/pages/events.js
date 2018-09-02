@@ -6,24 +6,28 @@ const EventsPage = ({ data }) => {
   document.body.style.background =
     'url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)'
 
+    const games = data.allMarkdownRemark.edges.filter(game=>game.node.frontmatter.genre==='game')
+    const events = data.allMarkdownRemark.edges.filter(event=>event.node.frontmatter.genre==='event')
+
   return (
     <div>
-      <div className={styles.eventhead}>GAMES & EVENTS</div>
-
+      {/* <div className={styles.eventhead}>GAMES & EVENTS</div> */}
+      <h1 className={styles.eventhead}>Events</h1>
       <div className={styles.grid}>
-        {data.allMarkdownRemark.edges.map(post => {
-          const {
-            src,
-            title,
-            short,
-            path
-          } = post.node.frontmatter
+        {events.map(post => {
+          const { src, title, short, path } = post.node.frontmatter
           return (
             <div>
               <div className={styles.eventCards}>
                 <h1 className={styles.title}>{title}</h1>
                 <div
-                  style={{ height: '300px', width: '100%', overflow: 'hidden' }}
+                  style={{
+                    height: '300px',
+                    width: '100%',
+                    overflow: 'hidden',
+                    paddingRight: '3px',
+                    paddingLeft: '3px',
+                  }}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
@@ -40,6 +44,39 @@ const EventsPage = ({ data }) => {
           )
         })}
       </div>
+      <h1 className={styles.eventhead}>Games</h1>
+      <div className={styles.grid}>
+        {games.map(post => {
+          const { src, title, short, path } = post.node.frontmatter
+          return (
+            <div>
+              <div className={styles.eventCards}>
+                <h1 className={styles.title}>{title}</h1>
+                <div
+                  style={{
+                    height: '300px',
+                    width: '100%',
+                    overflow: 'hidden',
+                    paddingRight: '3px',
+                    paddingLeft: '3px',
+                  }}
+                >
+                  <img src={src} style={{ height: 'auto', width: '100%' }} />
+                </div>
+
+                <p className={styles.eventpara}>{short}</p>
+
+                <div className={styles.eventlinkdiv}>
+                  <Link className={styles.eventlink} to={path}>
+                    MORE INFO
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+  
     </div>
   )
 }
@@ -54,6 +91,7 @@ export const pageQuery = graphql`
             path
             src
             short
+            genre
           }
         }
       }

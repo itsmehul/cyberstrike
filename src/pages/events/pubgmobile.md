@@ -1,5 +1,6 @@
 ---
 path: '/pubgm'
+genre: 'game'
 title: 'PUBG Mobile'
 game: 'pubg'
 src: 'static/assets/icons/pubg.jpg'

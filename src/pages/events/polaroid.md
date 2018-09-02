@@ -1,5 +1,6 @@
 ---
 path: '/polaroid'
+genre: 'event'
 title: 'Polaroid Station'
 game: 'polaroid'
 src: 'static/assets/icons/polaroid.png'

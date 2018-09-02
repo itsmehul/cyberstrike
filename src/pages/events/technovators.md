@@ -1,5 +1,6 @@
 ---
 path: '/technova'
+genre: 'event'
 title: 'Technovators'
 game: 'technovators'
 src: 'static/assets/icons/technovators.jpg'
