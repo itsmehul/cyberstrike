@@ -6,6 +6,7 @@ import { withPrefix } from 'gatsby-link'
 const Header = ({ siteTitle }) => {
   // const isHomepage = location.pathname === withPrefix('/')
   const isContacts = location.pathname === withPrefix('/contacts')
+  const isAboutus = location.pathname === withPrefix('/aboutus')
   const links = [
     {
       page: 'Home',
@@ -19,9 +20,13 @@ const Header = ({ siteTitle }) => {
       page: 'Contacts',
       path: '/contacts',
     },
+    {
+      page: 'AboutUs',
+      path: '/aboutus',
+    },
   ]
   function getStyle() {
-    if (isContacts) {
+    if (isContacts || isAboutus) {
       return 'black'
     } else {
       return 'white'
