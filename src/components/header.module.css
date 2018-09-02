@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
 
 
 .trans{
   background-color: transparent
+}
+
+
+.fontfam {
+  font-family: 'Squada One',
+  cursive;
 }
