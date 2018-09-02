@@ -1,6 +1,6 @@
 ---
 path: '/csgo'
-genre:'game'
+genre: 'game'
 title: 'Counter Strike'
 game: 'csgo'
 src: 'static/assets/icons/csgo.jpg'
@@ -11,5 +11,3 @@ teamSize: '5'
 Type: 'Tournament'
 Date: 'December 17, 2016 & December 18, 2016' 
 ---
-
-CSGO
