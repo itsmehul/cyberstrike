@@ -4,7 +4,7 @@ import Headroom from 'react-headroom'
 import { withPrefix } from 'gatsby-link'
 
 const Header = ({ siteTitle }) => {
-  // const isHomepage = location.pathname === withPrefix('/')
+  const isHomepage = location.pathname === withPrefix('/')
   const isContacts = location.pathname === withPrefix('/contacts')
   const isAboutus = location.pathname === withPrefix('/aboutus')
   const links = [
@@ -32,10 +32,19 @@ const Header = ({ siteTitle }) => {
       return 'white'
     }
   }
+  function getBackground() {
+    if (isHomepage) {
+      return 'transparent'
+    } else if (isContacts || isAboutus) {
+      return 'white'
+    } else {
+      return 'black'
+    }
+  }
   return (
     <Headroom
       style={{
-        background: 'transparent',
+        background: getBackground(),
         marginBottom: '1.45rem',
       }}
     >
@@ -54,7 +63,7 @@ const Header = ({ siteTitle }) => {
                 color: getStyle(),
                 textDecoration: 'none',
                 marginRight: '20px',
-                display: 'inline-block'
+                display: 'inline-block',
               }}
             >
               {link.page}
@@ -64,7 +73,6 @@ const Header = ({ siteTitle }) => {
       </div>
     </Headroom>
   )
-  
 }
 
 export default Header
