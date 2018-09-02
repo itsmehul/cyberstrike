@@ -1,5 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import team from '../data/contacts.json'
+import ContactCard from '../components/contacts';
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data
@@ -11,7 +12,12 @@ export default function Template({ data }) {
     Type,
     Date,
     widescreen,
+    game
   } = post.frontmatter
+  const head=team.support.filter(
+    team=>team.head===game
+  )
+  console.log(head[0].name)
   return (
     <div style={{ backgroundColor: 'white' }}>
       <div style={{height:'200px', width:'100%', overflow:'hidden'}}>
@@ -23,6 +29,8 @@ export default function Template({ data }) {
       <p>{teamSize}</p>
       <p>{Type}</p>
       <p>{Date}</p>
+      <p>Invigilator</p>
+        <ContactCard name={head[0].name} head={head[0].head} contact={head[0].contact}/>
     </div>
   )
 }
@@ -40,6 +48,7 @@ export const postQuery = graphql`
         Type
         Date
         widescreen
+        game
       }
     }
   }

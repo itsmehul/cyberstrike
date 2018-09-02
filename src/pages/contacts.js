@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Contact from '../components/contacts'
 import contactsData from '../data/contacts.json'
 import styles from './contacts.module.css'
@@ -7,9 +6,6 @@ import styles from './contacts.module.css'
 const contactUs = ({ data }) => {
   document.body.style.background = "white";
 
-
-
-  console.log(Object.values(contactsData))
   return (
     <div id="map">
       <div style={{padding:'10px'}}> 
@@ -35,22 +31,5 @@ const contactUs = ({ data }) => {
     </div>
   )
 }
-export const pageQuery = graphql`
-  query contactUs {
-    markdownRemark(frontmatter: { path: { eq: "/contacts" } }) {
-      html
-      frontmatter {
-        path
-        title
-        src
-        short
-        fee
-        teamSize
-        Type
-        Date
-      }
-    }
-  }
-`
 
 export default contactUs

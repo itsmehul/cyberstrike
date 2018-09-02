@@ -1,14 +1,61 @@
 {
   "support":[
     {
-      "name":"Jai Hind College",
-      "head":"'A' Road, Churchgate, Mumbai-20",
-      "contact":"+91 75066 48404"
+
+      "name":"nadeem",
+      "head":"fifa",
+      "contact":"989021380"
     },
     {
-      "name":"Manvi Gangwani",
-      "head":"committee@jhccyberstrike.com",
-      "contact":"+91 9406754000"
+      "name":"rohan",
+      "head":"pubg",
+      "contact":"989021380"
+    },
+    {
+      "name":"sameer",
+      "head":"csgo",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"hackathon",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"minilens",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"polaroid",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"technovators",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"techtalk",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"workshop",
+      "contact":"989021380"
+    },
+    {
+      "name":"nadeem",
+      "head":"football",
+      "contact":"989021380"
+    },
+    {
+      "name":"rohan",
+      "head":"debate",
+      "contact":"989021380"
+
     }
   ],
   "team":[
