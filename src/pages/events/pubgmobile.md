@@ -5,7 +5,7 @@ title: 'PUBG Mobile'
 game: 'pubg'
 src: 'static/assets/icons/pubg.jpg'
 widescreen: 'static/assets/cover/pubg.jpg'
-short: 'The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!'
+short: "PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole."
 fee: '₹300 Per Team'
 teamSize: '5'
 Type: 'Tournament'
