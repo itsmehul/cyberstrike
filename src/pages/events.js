@@ -1,8 +1,6 @@
 import React from 'react'
-import { withPrefix } from 'gatsby-link'
 import styles from './events.module.css'
 import Link from 'gatsby-link'
-import { Heading, Image, Card } from 'reakit'
 
 const EventsPage = ({ data }) => {
   document.body.style.background =
@@ -25,7 +23,7 @@ const EventsPage = ({ data }) => {
               <div className={styles.eventCards}>
                 <h1 className={styles.title}>{title}</h1>
                 <div
-                  style={{ height: '200px', width: '100%', overflow: 'hidden' }}
+                  style={{ height: '300px', width: '100%', overflow: 'hidden' }}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
