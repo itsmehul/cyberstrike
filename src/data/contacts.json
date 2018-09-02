@@ -60,13 +60,18 @@
   ],
   "team":[
     {
-      "name":"mehul",
-      "head":"web dev",
+      "name":"Vidisha",
+      "head":"President",
       "contact":"989021380"
     },
     {
-      "name":"sameer",
-      "head":"planning",
+      "name":"Manvi",
+      "head":"Marketting",
+      "contact":"989021380"
+    },
+    {
+      "name":"Shubham",
+      "head":"Promotions",
       "contact":"989021380"
     }
   ]
