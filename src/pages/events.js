@@ -11,6 +11,7 @@ const EventsPage = ({ data }) => {
   return (
     <div>
       <div className={styles.eventhead}>GAMES & EVENTS</div>
+
       <div className={styles.grid}>
         {data.allMarkdownRemark.edges.map(post => {
           const {
