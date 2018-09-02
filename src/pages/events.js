@@ -11,10 +11,29 @@ const EventsPage = ({ data }) => {
 
   return (
     <div>
-      <div className={styles.eventhead}>GAMES & EVENTS</div><br />
-      <h2 className={styles.eventsubhead}>Games</h2>
-    
-      <div><div><div>
+      <h1 className={styles.eventhead}>GAMES & EVENTS</h1><br />
+      <h1 className={styles.eventsubhead}>Games!</h1>
+      <div className={styles.grid}>
+        {games.map(post => {
+          const { src, title, short, path } = post.node.frontmatter
+          return (
+            <div>
+              <div className={styles.eventCards}>
+                <h1 className={styles.title}>{title}</h1>
+                <div
+                  style={{
+                    height: '300px',
+                    width: '100%',
+                    overflow: 'hidden',
+                    paddingRight: '3px',
+                    paddingLeft: '3px',
+                  }}
+                >
+                  <img src={src} style={{ height: 'auto', width: '100%' }} />
+                </div>
+
+                <p className={styles.eventpara}>{short}</p>
+
                 <div className={styles.eventlinkdiv}>
                   <Link className={styles.eventlink} to={path}>
                     MORE INFO
@@ -25,16 +44,23 @@ const EventsPage = ({ data }) => {
           )
         })}
       </div>
-      <h1 className={styles.eventhead}>Games</h1>
+      <br /><br />
+      <h1 className={styles.eventsubhead}>Events!</h1>
       <div className={styles.grid}>
-        {games.map(post => {
+        {events.map(post => {
           const { src, title, short, path } = post.node.frontmatter
           return (
             <div>
               <div className={styles.eventCards}>
                 <h1 className={styles.title}>{title}</h1>
-                <div className={styles.eventimages}
-                  style={{ height: '300px', width: '100%', overflow: 'hidden'}}
+                <div
+                  style={{
+                    height: '300px',
+                    width: '100%',
+                    overflow: 'hidden',
+                    paddingRight: '3px',
+                    paddingLeft: '3px',
+                  }}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>

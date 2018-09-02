@@ -18,9 +18,9 @@ const Layout = ({ children, data }) => {
         style={{
           margin: '0 auto',
           marginTop:-5,
-          maxWidth: 960,
-          padding: '0px',
-          paddingTop: 0,
+          maxWidth: 1366,
+          padding: '20px',
+          paddingTop:30,
         }}
       >
         {children()}

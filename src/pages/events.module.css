@@ -3,9 +3,11 @@
 
 .title {
   font-family: Product Sans;
+  font-weight: 300;
   color: white;
   text-align: center;
   padding-top: 20px;
+  font-size: 160%;
 }
 
 .test {
@@ -23,11 +25,12 @@
   color: white;
   font-size: 5rem;
   padding-left: 10px;
+  font-weight: 400;
 }
 
 .eventsubhead {
   font-weight: 400;
-  color: rgb(214, 214, 214);
+  color: #ff0037;
   padding-left: 10px;
   font-family: Product Sans;
   font-size: 2.5rem;
@@ -98,7 +101,7 @@
   color: white;
   text-decoration: none;
   padding: 10px;
-  border: 2px solid #1fc4d0;
+  border: 2px solid #ff0037;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
