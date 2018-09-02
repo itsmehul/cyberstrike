@@ -1,0 +1,2 @@
+webpackJsonp([20524393087440],{344:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/debate",title:"Debate",src:"static/assets/debate.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---debate-037a70c89a9c5770d339.js.map

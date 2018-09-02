@@ -1,0 +1,2 @@
+webpackJsonp([0xd520ae1ac076],{351:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/polaroid",title:"Polaroid",src:"static/assets/polaroid.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---polaroid-53bae0a1cadfe0184755.js.map

@@ -8,6 +8,7 @@ import { withPrefix } from 'gatsby-link'
 const Header = ({ siteTitle }) => {
   // const isHomepage = location.pathname === withPrefix('/')
   const isContacts = location.pathname === withPrefix('/contacts')
+  const isAboutus = location.pathname === withPrefix('/aboutus')
   const links = [
     {
       page: 'HOME',
@@ -21,9 +22,13 @@ const Header = ({ siteTitle }) => {
       page: 'CONTACT US',
       path: '/contacts',
     },
+    {
+      page: 'AboutUs',
+      path: '/aboutus',
+    },
   ]
   function getStyle() {
-    if (isContacts) {
+    if (isContacts || isAboutus) {
       return 'black'
     } else {
       return 'white'
@@ -51,7 +56,12 @@ const Header = ({ siteTitle }) => {
               style={{
                 color: getStyle(),
                 textDecoration: 'none',
+<<<<<<< HEAD
                 marginRight: '50px',
+=======
+                marginRight: '20px',
+                display: 'inline-block'
+>>>>>>> be6c67d13ac38ce6b70076c4226f4efff3a667e5
               }}
             >
               {link.page}

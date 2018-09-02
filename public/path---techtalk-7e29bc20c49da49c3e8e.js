@@ -1,0 +1,2 @@
+webpackJsonp([46756848960719],{353:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/techtalk",title:"Techtalk",src:"static/assets/techtalk.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---techtalk-7e29bc20c49da49c3e8e.js.map

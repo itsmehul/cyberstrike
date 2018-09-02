@@ -1,0 +1,2 @@
+webpackJsonp([27672113942254],{343:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/csgo",title:"CSGO",src:"static/assets/csgo.jpg",short:"The most loved games of all times- challenge your friends to win the tournament and challenge your rivals to earn the title!",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 17, 2016 & December 18, 2016"}}},pathContext:{}}}});
+//# sourceMappingURL=path---csgo-a78b0692698b896107a4.js.map

@@ -27,3 +27,12 @@
   font-family: 'Anton' !important;
   font-size: 5rem !important;
 }
+
+.contactCard{
+  border-right: 5px solid black;
+}
+.gridCard {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
