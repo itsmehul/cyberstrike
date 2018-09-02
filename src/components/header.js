@@ -56,12 +56,8 @@ const Header = ({ siteTitle }) => {
               style={{
                 color: getStyle(),
                 textDecoration: 'none',
-<<<<<<< HEAD
-                marginRight: '50px',
-=======
-                marginRight: '20px',
+                marginRight: '40px',
                 display: 'inline-block'
->>>>>>> be6c67d13ac38ce6b70076c4226f4efff3a667e5
               }}
             >
               {link.page}
