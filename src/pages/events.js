@@ -76,7 +76,7 @@ const EventsPage = ({ data }) => {
           )
         })}
       </div>
-        <button onClick={()=>(popup('cyberstrike'))} class="tsbutton" className={styles.regbtn}>Register Here!</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+        <button onClick={()=>(popup('cyberstrike'))} class="tsbutton" className={styles.regbtn}>Register Here!</button>
     </div>
   )
 }

@@ -6,9 +6,11 @@ import { withPrefix } from 'gatsby-link'
 
 
 const Header = ({ siteTitle }) => {
-  const isHomepage = location.pathname === withPrefix('/')
-  const isContacts = location.pathname === withPrefix('/contacts')
-  const isAboutus = location.pathname === withPrefix('/aboutus')
+  if (typeof window !== `undefined`) {
+  var isHomepage = location.pathname === withPrefix('/')
+  var isContacts = location.pathname === withPrefix('/contacts')
+  var isAboutus = location.pathname === withPrefix('/aboutus')
+  }
   const links = [
     {
       page: 'HOME',

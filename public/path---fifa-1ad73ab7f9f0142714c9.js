@@ -1,0 +1,2 @@
+webpackJsonp([18520452469703],{279:function(e,a){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/fifa",title:"FIFA",short:"FIFA, also known as FIFA Football or FIFA Soccer, is a series of association football video games or football simulator, released annually by Electronic Arts under the EA Sports label.",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 5, 2018 & December 6, 2018",widescreen:"static/assets/cover/fifa.jpg",game:"fifa"}}},pathContext:{}}}});
+//# sourceMappingURL=path---fifa-1ad73ab7f9f0142714c9.js.map

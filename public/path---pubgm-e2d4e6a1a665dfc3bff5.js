@@ -1,0 +1,2 @@
+webpackJsonp([7975516657917],{283:function(e,a){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/pubgm",title:"PUBG Mobile",short:"PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole.",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 5, 2018 & December 6, 2018",widescreen:"static/assets/cover/pubg.jpg",game:"pubg"}}},pathContext:{}}}});
+//# sourceMappingURL=path---pubgm-e2d4e6a1a665dfc3bff5.js.map

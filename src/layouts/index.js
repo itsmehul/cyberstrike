@@ -6,9 +6,11 @@ import { withPrefix } from 'gatsby-link'
 import styles from './index.module.css'
 
 const Layout = ({ children, data }) => {
-  const isHomepage = location.pathname === withPrefix('/')
-  const isEvents = location.pathname === withPrefix('/events')
-  const isAboutus = location.pathname === withPrefix('/aboutus')
+  if (typeof window !== `undefined`) {
+  var isHomepage = location.pathname === withPrefix('/')
+  var isEvents = location.pathname === withPrefix('/events')
+  var isAboutus = location.pathname === withPrefix('/aboutus')
+  }
 
   return (
     <div>
