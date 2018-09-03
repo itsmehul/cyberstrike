@@ -1,4 +1,13 @@
-
+.overlayblack {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.514);
+}
 
 .centering{
   position: absolute;
@@ -70,7 +79,7 @@
   z-index: 9;
   margin: 0 auto;
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 35vh;
 }
 
 .testdatetext {
@@ -78,7 +87,7 @@
   display:table;
   z-index: 15;
   font-family: 'Anton', sans-serif;
-  font-size: 5vw;
+  font-size: 4.5vw;
   padding-top: 20px;
   color: white;
   text-align: center;
