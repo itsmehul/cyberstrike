@@ -34,24 +34,20 @@
     font-weight: 100;
 }
 
-.sizevary {
-    
-}
+
 
 @media screen and (max-width: 420px) {
-  .cardtest {
-    width: 10%;
-  }
-
-  .maindiv {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 30px;
-  }
+    .sizevary {
+        height: '100px';
+        overflow: 'hidden';
+        box-shadow: '0 2px 20px rgba(0, 0, 4, 0.6)';
+    }
 }
 
 @media screen and (min-width: 800px) {
-  .cardtest {
-     max-width: 35%;
-  }
+    .sizevary {
+        height: '250px';
+        overflow: 'hidden';
+        box-shadow: '0 2px 20px rgba(0, 0, 4, 0.6)';
+    }
 }
