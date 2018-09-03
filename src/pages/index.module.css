@@ -9,6 +9,21 @@
   padding-bottom: 5%;
 }
 
+.logo1 {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+  z-index: 1;
+}
+
+.logo2 {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  z-index: 1;
+}
+
+
 .cybertitle {
   display: inline-block;
 }
@@ -45,7 +60,7 @@
   display:table;
   z-index: 15;
   font-family: 'Anton', sans-serif;
-  font-size: 500%;
+  font-size: 12vw;
   padding: 25px;
   border: 11px solid whitesmoke;
   color: white;
@@ -55,7 +70,7 @@
   z-index: 9;
   margin: 0 auto;
   width: 100%;
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 .testdatetext {
@@ -63,10 +78,10 @@
   display:table;
   z-index: 15;
   font-family: 'Anton', sans-serif;
-  font-size: 300%;
+  font-size: 5vw;
   padding-top: 20px;
   color: white;
-  
+  text-align: center;
 }
 
 .background-video {

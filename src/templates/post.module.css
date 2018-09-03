@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
 .maineventimage {
     height: 'auto';
     width:'100%';
@@ -6,7 +9,7 @@
 
 .maineventhead {
     padding-top: 20px;
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     color: white;
     font-size: 280%;
     text-align: center;
