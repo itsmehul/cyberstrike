@@ -10,6 +10,7 @@ const Layout = ({ children, data }) => {
   var isHomepage = location.pathname === withPrefix('/')
   var isEvents = location.pathname === withPrefix('/events')
   var isAboutus = location.pathname === withPrefix('/aboutus')
+  var isContact = location.pathname === withPrefix('/contacts')
   }
 
   return (
@@ -25,6 +26,15 @@ const Layout = ({ children, data }) => {
           <source src="static/vidhome.mp4" type="video/mp4" />
         </video>
       )}
+      {
+        !isHomepage && (
+           <img
+          src="https://image.ibb.co/hQk0QK/fondo_web_02.jpg"
+          className={styles.wide}
+        />
+        )
+      }
+
       <Helmet
         title={data.site.siteMetadata.title}
         meta={[

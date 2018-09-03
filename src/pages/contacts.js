@@ -27,9 +27,11 @@ const contactUs = ({ data }) => {
 
         <h1 className={styles.contactlisthead}>For enquiries contact</h1>
         <div className={styles.grid+' '+styles.contactaddr} >
+        <div>
         {contactsData.team.map(member=>
         <Contact name={member.name} head={member.head} contact={member.contact} />
         )}
+        </div>
         </div>
       </div>
         

@@ -12,13 +12,13 @@
 .contacthead {
   font-family: 'Anton',
   sans-serif;
-  color: black;
+  color: white;
   font-size: 5rem;
   font-weight: 400;
 }
 
 .contactsubhead {
-  color: #2e263d;
+  color: #e7e7e7;
   font-family: Product Sans;
   font-size: 2.5rem;
 }
@@ -36,8 +36,17 @@
 
 .contactaddr {
   font-family: 'Product Sans';
+  font-weight: 100;
   font-size: 1.5rem;
   text-align: center;
+  color: #ffffff;
+
+}
+
+
+.contactaddrcard {
+  box-shadow: 0 2px 18px rgba(0, 0, 5, 0.281);
+  border: 2px solid #ffffff86;
 }
 
 .contactCard{

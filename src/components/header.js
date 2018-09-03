@@ -26,17 +26,12 @@ const Header = ({ siteTitle }) => {
     }
   ]
   function getStyle() {
-    if (isContacts || isAboutus) {
-      return 'black'
-    } else {
+    
       return 'white'
-    }
   }
   function getBackground() {
     if (isHomepage) {
       return 'transparent'
-    } else if (isContacts || isAboutus) {
-      return 'white'
     } else {
       return '#000000c4'
     }

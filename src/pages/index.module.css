@@ -1,4 +1,13 @@
-
+.overlayblack {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.514);
+}
 
 .centering{
   position: absolute;
@@ -11,15 +20,15 @@
 
 .logo1 {
   position: absolute;
-  left: 20px;
-  top: 70px;
+  left: 80px;
+  top: 100px;
   z-index: 1;
 }
 
 .logo2 {
   position: absolute;
-  right: 20px;
-  top: 70px;
+  right: 80px;
+  top: 92px;
   z-index: 1;
 }
 
@@ -70,15 +79,16 @@
   z-index: 9;
   margin: 0 auto;
   width: 100%;
-  padding-top: 15vh;
+  padding-top: 35vh;
 }
 
 .testdatetext {
+  font-weight: 100;
   margin: 0 auto;
   display:table;
   z-index: 15;
   font-family: 'Anton', sans-serif;
-  font-size: 5vw;
+  font-size: 5vh;
   padding-top: 20px;
   color: white;
   text-align: center;
