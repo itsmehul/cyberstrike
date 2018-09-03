@@ -31,7 +31,6 @@ const EventsPage = ({ data }) => {
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
 
-                <p className={styles.eventpara}>{short}</p>
 
                 <div className={styles.eventlinkdiv}>
                   <Link className={styles.eventlink} to={path}>
@@ -64,7 +63,6 @@ const EventsPage = ({ data }) => {
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
 
-                <p className={styles.eventpara}>{short}</p>
 
                 <div className={styles.eventlinkdiv}>
                   <Link className={styles.eventlink} to={path}>

@@ -20,14 +20,14 @@ export default function Template({ data }) {
   console.log(head[0].name)
   return (
     <div>
-      <div style={{ height: '290px', width: '100%', overflow: 'hidden' }}>
+      <div className={styles.sizevary} >
         <img
           src={widescreen}
           style={{
             height: 'auto',
             width: '100%',
-            borderRadius: '10px',
             boxShadow: '0 2px 5px rgba(0, 0, 4, 0.6)',
+            
           }}
         />
       </div>

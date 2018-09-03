@@ -18,6 +18,7 @@
 
 .maineventdescription {
     color: #dfdfdf;
+    text-align: center;
     font-family: 'Product Sans';
     font-size: 150%;
     text-align: justify;
@@ -26,8 +27,27 @@
 
 .maineventdate {
     color: #dfdfdf;
+    text-align: center;
     font-family: 'Product Sans';
     font-size: 150%;
     text-align: justify;
     font-weight: 100;
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .sizevary {
+        height: '100px';
+        overflow: 'hidden';
+        box-shadow: '0 2px 20px rgba(0, 0, 4, 0.6)';
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .sizevary {
+        height: '250px';
+        overflow: 'hidden';
+        box-shadow: '0 2px 20px rgba(0, 0, 4, 0.6)';
+    }
 }
