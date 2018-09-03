@@ -1,12 +1,10 @@
 import React from 'react'
 import team from '../data/contacts.json'
-import ContactCard from '../components/contacts';
+import ContactCard from '../components/contacts'
 import styles from './post.module.css'
 
-
 export default function Template({ data }) {
-   document.body.style.background =
-     'url(https://image.ibb.co/hQk0QK/fondo_web_02.jpg)'
+
   const { markdownRemark: post } = data
   const {
     title,
@@ -16,16 +14,22 @@ export default function Template({ data }) {
     Type,
     Date,
     widescreen,
-    game
+    game,
   } = post.frontmatter
-  const head=team.support.filter(
-    team=>team.head===game
-  )
+  const head = team.support.filter(team => team.head === game)
   console.log(head[0].name)
   return (
     <div>
-      <div style={{height:'290px', width:'100%', overflow:'hidden'}}>
-        <img src={widescreen} style={{height:'auto',width:'100%', borderRadius:'10px', boxShadow: '0 2px 5px rgba(0, 0, 4, 0.6)'}}/>
+      <div style={{ height: '290px', width: '100%', overflow: 'hidden' }}>
+        <img
+          src={widescreen}
+          style={{
+            height: 'auto',
+            width: '100%',
+            borderRadius: '10px',
+            boxShadow: '0 2px 5px rgba(0, 0, 4, 0.6)',
+          }}
+        />
       </div>
       <h1 className={styles.maineventhead}>{title}</h1>
       <h3 className={styles.maineventdescription}>{short}</h3>

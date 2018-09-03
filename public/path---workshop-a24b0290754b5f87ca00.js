@@ -1,0 +1,2 @@
+webpackJsonp([4696614854580],{286:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/workshop",title:"Workshop",short:"A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.",fee:"₹300 Per Team",teamSize:"5",Type:"Tournament",Date:"December 5, 2018 & December 6, 2018",widescreen:"static/assets/cover/workshop.jpg",game:"workshop"}}},pathContext:{}}}});
+//# sourceMappingURL=path---workshop-a24b0290754b5f87ca00.js.map

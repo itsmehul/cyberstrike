@@ -4,7 +4,6 @@ import contactsData from '../data/contacts.json'
 import styles from './contacts.module.css'
 
 const contactUs = ({ data }) => {
-  document.body.style.background = "white";
 
   return (
     <div>
