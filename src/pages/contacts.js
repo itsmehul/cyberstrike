@@ -27,7 +27,7 @@ const contactUs = ({ data }) => {
 
         <h1 className={styles.contactlisthead}>For enquiries contact</h1>
         <div className={styles.grid+' '+styles.contactaddr} >
-        <div >
+        <div  style={{display:'grid',gridGap: '10px',gridTemplateColumns:'repeat(auto-fill, minmax(270px, 1fr))'}}>
         {contactsData.team.map(member=>
         <Contact name={member.name} head={member.head} contact={member.contact} />
         )}

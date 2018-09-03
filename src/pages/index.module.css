@@ -20,15 +20,15 @@
 
 .logo1 {
   position: absolute;
-  left: 20px;
-  top: 70px;
+  left: 80px;
+  top: 100px;
   z-index: 1;
 }
 
 .logo2 {
   position: absolute;
-  right: 20px;
-  top: 70px;
+  right: 80px;
+  top: 92px;
   z-index: 1;
 }
 
@@ -83,11 +83,12 @@
 }
 
 .testdatetext {
+  font-weight: 100;
   margin: 0 auto;
   display:table;
   z-index: 15;
   font-family: 'Anton', sans-serif;
-  font-size: 4.5vw;
+  font-size: 5vh;
   padding-top: 20px;
   color: white;
   text-align: center;
