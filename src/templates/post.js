@@ -32,10 +32,12 @@ export default function Template({ data }) {
         />
       </div>
       <h1 className={styles.maineventhead}>{title}</h1>
-      <h3 className={styles.maineventdescription}>{short}</h3>
-      {/* <p>{fee}</p>
-      <p>{teamSize}</p>
-  <p>{Type}</p>*/}
+      <div className={styles.maineventdescription}>
+      <h3>{short}</h3>
+      <p>Price: {fee}</p>
+      <p>Team Size: {teamSize}</p>
+      <p>Type: {Type}</p>
+      </div>
       <p className={styles.maineventdate}>{Date}</p>
       {/*<p>Invigilator</p>
         <ContactCard name={head[0].name} head={head[0].head} contact={head[0].contact}/> */}
