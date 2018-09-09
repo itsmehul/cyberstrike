@@ -18,6 +18,7 @@ const EventsPage = ({ data }) => {
           return (
             <div>
               <div className={styles.eventCards}>
+              <Link className={styles.eventlinkcard} to={path}>
                 <h1 className={styles.title}>{title}</h1>
                 <div
                   style={{
@@ -30,12 +31,13 @@ const EventsPage = ({ data }) => {
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
-
+                </Link>
 
                 <div className={styles.eventlinkdiv}>
                   <Link className={styles.eventlink} to={path}>
                     MORE INFO
                   </Link>
+                
                 </div>
               </div>
             </div>
@@ -50,6 +52,12 @@ const EventsPage = ({ data }) => {
           return (
             <div>
               <div className={styles.eventCards}>
+              < Link className = {
+                styles.eventlinkcard
+              }
+              to = {
+                path
+              } >
                 <h1 className={styles.title}>{title}</h1>
                 <div
                   style={{
@@ -62,7 +70,7 @@ const EventsPage = ({ data }) => {
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
                 </div>
-
+                  </Link>
 
                 <div className={styles.eventlinkdiv}>
                   <Link className={styles.eventlink} to={path}>

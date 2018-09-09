@@ -32,6 +32,16 @@
   z-index: 1;
 }
 
+.logomain {
+  margin-top: 5vh;
+  padding: 10px;
+}
+
+.centeringdiv {
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+}
 
 .cybertitle {
   display: inline-block;
@@ -101,4 +111,24 @@
  bottom: 0;
  right: 0;
  
+}
+
+@media screen and (max-width: 420px) {
+  .logomain {
+   margin-top: 5vh;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top:60px;
+   padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logomain {
+    margin-top: 5vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }

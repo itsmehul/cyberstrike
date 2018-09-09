@@ -9,8 +9,9 @@ const IndexPage = ({ data }) => {
       <div className={styles.testsplash}>
         <img className={styles.logo1} src="static/assets/dcclogo.png" width="65vw" height="65vw"></img>
         <img className={styles.logo2} src="static/assets/jhclogo.png" width="65vw" height="75vw"></img>
-        <h1 className={styles.testtext}>CYBERSTRIKE</h1>
-        <h1 className={styles.testdatetext}>5th AND 6th DECEMBER 2018</h1>
+        <div className={styles.centeringdiv}>
+          <img className={styles.logomain} src="static/assets/CYBERSTRIKELogoWHITE.png" width="790vw" height="240vw"></img>
+        </div>
       </div>
     </div>
   )

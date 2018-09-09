@@ -23,7 +23,7 @@ const Layout = ({ children, data }) => {
       )}
       {isHomepage && (
         <video autoPlay muted loop className={styles.myVideo}>
-          <source src="static/vidhome.mp4" type="video/mp4" />
+          <source src="static/homevidtest.mp4" type="video/mp4" />
         </video>
       )}
       {
