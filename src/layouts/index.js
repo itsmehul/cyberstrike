@@ -16,14 +16,15 @@ const Layout = ({ children, data }) => {
   return (
     <div>
       {isEvents && (
-        <img
+        <img 
+          poster="https://image.ibb.co/hQk0QK/fondo_web_02.jpg"
           src="https://image.ibb.co/hQk0QK/fondo_web_02.jpg"
           className={styles.wide}
         />
       )}
       {isHomepage && (
         <video autoPlay muted loop className={styles.myVideo}>
-          <source src="static/vidhome.mp4" type="video/mp4" />
+          <source src="static/homevidtest.mp4" type="video/mp4" />
         </video>
       )}
       {
