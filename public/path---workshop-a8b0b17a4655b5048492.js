@@ -1,0 +1,2 @@
+webpackJsonp([4696614854580],{287:function(e,o){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/workshop",title:"Workshop",short:"Always wanted to get your hands on to something you only every saw on the internet or television?! Here's your chance! Join us for exciting workshops and build your way to happiness!",fee:"NA",teamSize:"NA",Type:"Workshop",Date:"December 5, 2018 & December 6, 2018",widescreen:"static/assets/cover/workshop.jpg",game:"workshop"}}},pathContext:{}}}});
+//# sourceMappingURL=path---workshop-a8b0b17a4655b5048492.js.map

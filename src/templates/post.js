@@ -20,6 +20,7 @@ export default function Template({ data }) {
   console.log(head[0].name)
   return (
     <div>
+      <div>
       <div className={styles.sizevary} >
         <img
           src={widescreen}
@@ -41,6 +42,8 @@ export default function Template({ data }) {
       <p className={styles.maineventdate}>{Date}</p>
       {/*<p>Invigilator</p>
         <ContactCard name={head[0].name} head={head[0].head} contact={head[0].contact}/> */}
+    </div>
+    <button onClick={()=>(popup('cyberstrike'))} class="tsbutton" className={styles.regbtn}>Register Here!</button>
     </div>
   )
 }

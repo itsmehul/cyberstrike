@@ -39,6 +39,7 @@ const Header = ({ siteTitle }) => {
   return (
     <Headroom
       style={{
+        
         background: getBackground(),
         marginBottom: '1.45rem',
         
@@ -46,19 +47,22 @@ const Header = ({ siteTitle }) => {
     >
       <div
         style={{
+          paddingLeft: '50px',
+          textAlign:'center',
           margin: '0 auto',
-          maxWidth: 960,
+          maxWidth: 1500,
           padding: '1.45rem 1.0875rem',
         }}
       >
-        <h1 style={{ margin: 0 }}>
+        <h1 style={{ margin: 0 ,textAlign:'center'}}>
           {links.map(link => (
             <Link  className={styles.fontfam}
               to={link.path}
               style={{
+                
                 color: getStyle(),
                 textDecoration: 'none',
-                marginRight: '40px',
+                marginRight:30,
                 display: 'inline-block'
               }}
             >

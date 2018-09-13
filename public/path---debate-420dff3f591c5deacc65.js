@@ -1,0 +1,2 @@
+webpackJsonp([20524393087440],{278:function(e,t){e.exports={data:{markdownRemark:{html:"<p>CSGO</p>",frontmatter:{path:"/debate",title:"Debate",short:"Wanna  showcase your oratory skills?! Have the will to prove your point?! We've got just the right platform for you! Come register your team and get your thinking hats on!",fee:"FREE",teamSize:"2",Type:"Competition",Date:"December 5, 2018 & December 6, 2018",widescreen:"static/assets/cover/debate.jpg",game:"debate"}}},pathContext:{}}}});
+//# sourceMappingURL=path---debate-420dff3f591c5deacc65.js.map

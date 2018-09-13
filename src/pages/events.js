@@ -18,25 +18,22 @@ const EventsPage = ({ data }) => {
           return (
             <div>
               <div className={styles.eventCards}>
+              <Link className={styles.eventlinkcard} to={path}>
                 <h1 className={styles.title}>{title}</h1>
                 <div
                   style={{
                     height: '300px',
                     width: '100%',
                     overflow: 'hidden',
-                    paddingRight: '3px',
-                    paddingLeft: '3px',
+                    paddingRight: '2px',
+                    paddingLeft: '2px',
                   }}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
-                </div>
+                </div><div style={{paddingBottom:'2px'}}></div>
+                </Link>
 
-
-                <div className={styles.eventlinkdiv}>
-                  <Link className={styles.eventlink} to={path}>
-                    MORE INFO
-                  </Link>
-                </div>
+                
               </div>
             </div>
           )
@@ -50,25 +47,27 @@ const EventsPage = ({ data }) => {
           return (
             <div>
               <div className={styles.eventCards}>
+              < Link className = {
+                styles.eventlinkcard
+              }
+              to = {
+                path
+              } >
                 <h1 className={styles.title}>{title}</h1>
                 <div
                   style={{
                     height: '300px',
                     width: '100%',
                     overflow: 'hidden',
-                    paddingRight: '3px',
-                    paddingLeft: '3px',
+                    paddingRight: '2px',
+                    paddingLeft: '2px',
                   }}
                 >
                   <img src={src} style={{ height: 'auto', width: '100%' }} />
-                </div>
-
-
-                <div className={styles.eventlinkdiv}>
-                  <Link className={styles.eventlink} to={path}>
-                    MORE INFO
+                </div><div style={{paddingBottom:'2px'}}></div>
                   </Link>
-                </div>
+
+               
               </div>
             </div>
           )
