@@ -16,7 +16,8 @@ const Layout = ({ children, data }) => {
   return (
     <div>
       {isEvents && (
-        <img
+        <img 
+          poster="https://image.ibb.co/hQk0QK/fondo_web_02.jpg"
           src="https://image.ibb.co/hQk0QK/fondo_web_02.jpg"
           className={styles.wide}
         />

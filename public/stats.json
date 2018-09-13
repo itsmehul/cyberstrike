@@ -1,44 +1,44 @@
 {
   "assetsByChunkName": {
     "path---workshop": [
-      "path---workshop-06ef759b08b956ad5ed3.js",
-      "path---workshop-06ef759b08b956ad5ed3.js.map"
+      "path---workshop-a8b0b17a4655b5048492.js",
+      "path---workshop-a8b0b17a4655b5048492.js.map"
     ],
     "path---pubgm": [
-      "path---pubgm-701b1ec181b015aefc7d.js",
-      "path---pubgm-701b1ec181b015aefc7d.js.map"
+      "path---pubgm-b860c999eada6e05ace5.js",
+      "path---pubgm-b860c999eada6e05ace5.js.map"
     ],
     "path---fifa": [
-      "path---fifa-1e2fc0d153fcd8b170f8.js",
-      "path---fifa-1e2fc0d153fcd8b170f8.js.map"
+      "path---fifa-7b32541d7b28b5a6f75d.js",
+      "path---fifa-7b32541d7b28b5a6f75d.js.map"
     ],
     "path---debate": [
-      "path---debate-528b99724317ce2a04fa.js",
-      "path---debate-528b99724317ce2a04fa.js.map"
+      "path---debate-420dff3f591c5deacc65.js",
+      "path---debate-420dff3f591c5deacc65.js.map"
     ],
     "path---csgo": [
-      "path---csgo-7443a82c221a5c182576.js",
-      "path---csgo-7443a82c221a5c182576.js.map"
+      "path---csgo-d616d8110af7eb6281e5.js",
+      "path---csgo-d616d8110af7eb6281e5.js.map"
     ],
     "path---hackathon": [
-      "path---hackathon-5ee13a3e42201b1c0a7b.js",
-      "path---hackathon-5ee13a3e42201b1c0a7b.js.map"
+      "path---hackathon-2ac0272a1708cdc4388f.js",
+      "path---hackathon-2ac0272a1708cdc4388f.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d75ac1b9f40d3d34f093.js",
-      "component---src-pages-index-js-d75ac1b9f40d3d34f093.js.map"
+      "component---src-pages-index-js-20381f23184d680825d8.js",
+      "component---src-pages-index-js-20381f23184d680825d8.js.map"
     ],
     "path---filmaking": [
-      "path---filmaking-457c195ae405e474dad7.js",
-      "path---filmaking-457c195ae405e474dad7.js.map"
+      "path---filmaking-525f3c2bb1a35e3533f9.js",
+      "path---filmaking-525f3c2bb1a35e3533f9.js.map"
     ],
     "path---events": [
-      "path---events-f9263b8b3fc5accef643.js",
-      "path---events-f9263b8b3fc5accef643.js.map"
+      "path---events-6ba5aa8a63790181cc60.js",
+      "path---events-6ba5aa8a63790181cc60.js.map"
     ],
     "path---techtalk": [
-      "path---techtalk-1bacca7efad5be4b267e.js",
-      "path---techtalk-1bacca7efad5be4b267e.js.map"
+      "path---techtalk-b07376926c5051a097e3.js",
+      "path---techtalk-b07376926c5051a097e3.js.map"
     ],
     "path---contacts": [
       "path---contacts-a0e39f21c11f6a62c5ab.js",
@@ -49,16 +49,16 @@
       "path----c3336a98df7d76c37e3b.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a500c154b509c52091e5.js",
-      "component---src-layouts-index-js-a500c154b509c52091e5.js.map"
+      "component---src-layouts-index-js-8a85b32a00bd8fc93fb2.js",
+      "component---src-layouts-index-js-8a85b32a00bd8fc93fb2.js.map"
     ],
     "component---src-pages-contacts-js": [
-      "component---src-pages-contacts-js-79cb1789a444ddffa914.js",
-      "component---src-pages-contacts-js-79cb1789a444ddffa914.js.map"
+      "component---src-pages-contacts-js-6a38ddbbddeb01abda79.js",
+      "component---src-pages-contacts-js-6a38ddbbddeb01abda79.js.map"
     ],
     "path---index": [
-      "path---index-9ee082788fbe684d5ddd.js",
-      "path---index-9ee082788fbe684d5ddd.js.map"
+      "path---index-0acad64e83ae058c2050.js",
+      "path---index-0acad64e83ae058c2050.js.map"
     ],
     "path---aboutus": [
       "path---aboutus-a0e39f21c11f6a62c5ab.js",
@@ -79,30 +79,30 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-9083a7be2ae07f7b2f87.js",
-      "component---src-templates-post-js-9083a7be2ae07f7b2f87.js.map"
+      "component---src-templates-post-js-32691ae8eb6c26ab8fe2.js",
+      "component---src-templates-post-js-32691ae8eb6c26ab8fe2.js.map"
     ],
     "component---src-pages-aboutus-js": [
       "component---src-pages-aboutus-js-937366fbe6535fcf45da.js",
       "component---src-pages-aboutus-js-937366fbe6535fcf45da.js.map"
     ],
     "app": [
-      "app-559a117f90028c63addb.js",
+      "app-27a015ab37179383fe9f.js",
       "build-js-styles.css",
-      "app-559a117f90028c63addb.js.map",
+      "app-27a015ab37179383fe9f.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-events-js": [
-      "component---src-pages-events-js-c77756a4a179dcda0f10.js",
-      "component---src-pages-events-js-c77756a4a179dcda0f10.js.map"
+      "component---src-pages-events-js-b47b925f71d81614901e.js",
+      "component---src-pages-events-js-b47b925f71d81614901e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---technova": [
-      "path---technova-327b8f9c8af42c80e47e.js",
-      "path---technova-327b8f9c8af42c80e47e.js.map"
+      "path---technova-76e8b3c67e4ea7ab158e.js",
+      "path---technova-76e8b3c67e4ea7ab158e.js.map"
     ]
   }
 }
