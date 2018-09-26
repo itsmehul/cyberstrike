@@ -44,14 +44,41 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
     .sizevary {
         height: '250px';
         overflow: 'hidden';
         box-shadow: '0 2px 20px rgba(0, 0, 4, 0.6)';
     }
+} */
+
+.grid{
+margin:auto;
+ height: 900px;
+ width: 900px;
+ grid-template-columns: auto;
+ grid-template-rows: 300px 2fr 1fr 1fr;
+ grid-template-areas:   "p p"
+                        "m m"
+                        "pr ty"
+                        "dt dt"
 }
 
+.p{
+    grid-area: p;
+}
+.m{
+    grid-area: m;
+}
+.pr{
+    grid-area: pr;
+}
+.ty{
+    grid-area: ty;
+}
+.dt{
+    grid-area: dt;
+}
 .regbtn {
   font-family: 'Saira Semi Condensed',sans-serif;
   font-weight: 50;
