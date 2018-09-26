@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
         <img className={styles.logo2} src="static/assets/jhclogocompressed.png" width="65vw" height="75vw"></img>
         <div className={styles.centeringdiv}>
           <img className={styles.logomain} src="static/assets/CYBERSTRIKELogoWHITE.png" width="790vw" height="240vw"></img>
-          <h1 className={styles.testdatetext}>05/12/18 - 06/12/18</h1>
+          <h1 className={styles.testdatetext}>5<sup>TH</sup> & 6<sup>TH</sup> DECEMBER 2018</h1>
         </div>
       </div>
     </div>
